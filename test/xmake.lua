@@ -1,0 +1,6 @@
+target("test")
+    set_kind("binary")
+    add_includedirs("include")
+    add_files("src/*.c")
+    add_files("src/test_unit/*.c")
+    add_deps("XR806")
