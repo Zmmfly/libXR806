@@ -1,3 +1,10 @@
+build
+.xmake
+.config
+config.h
+.oldconfig
+.vscode/*
+!.vscode/c_cpp_*.json
 # Prerequisites
 *.d
 

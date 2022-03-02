@@ -1,0 +1,6 @@
+mainmenu "libXR806 configure"
+
+config CHIP_ARCH_VER
+    int "Chip arch version"
+    range 0 3
+    default 3

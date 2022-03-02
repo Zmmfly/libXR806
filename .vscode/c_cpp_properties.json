@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "XR806",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/test/**"
+            ],
+            "defines": [
+            ],
+            "intelliSenseMode": "windows-gcc-arm",
+            "compilerPath": "${env:GCC_ANE_HOME}/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
