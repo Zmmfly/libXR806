@@ -22,3 +22,14 @@ tufn(ll_reg_edit_2)
     if (!ret) printf("Reg: %08x, want: %08x\n", reg, 0xffffffff);
     return ret;
 }
+
+tufn(ll_reg_edit_3)
+{
+    bool ret = false;
+    uint32_t reg = 0x0;
+    LL_reg_edit(&reg, 3, 0, 0xff);
+
+    ret = (reg == 0xf);
+    if (!ret) printf("Reg: %08x, want: %08x\n", reg, 0xf);
+    return ret;
+}
